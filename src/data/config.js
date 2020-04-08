@@ -1,0 +1,35 @@
+module.exports = {
+  defaultTitle: 'Aakash Patel',
+  logo: '',
+  author: 'Aakash Patel',
+  url: 'https://aakashpatel.in',
+  legalName: 'Aakash Patel',
+  defaultDescription: 'I’m Aakash, a Full Stack Developer and Blogger!',
+  socialLinks: {
+    twitter: 'https://twitter.com/itsaakashpatel',
+    github: 'https://github.com/itsaakashpatel',
+    linkedin: 'https://www.linkedin.com/in/itsaakashpatel/',
+    instagram: '',
+    youtube: '',
+    google: '',
+  },
+  googleAnalyticsID: '',
+  themeColor: '#6b63ff',
+  backgroundColor: '#6b63ff',
+  social: {
+    facebook: 'appId',
+    twitter: '@itsaakashpatel',
+  },
+  address: {
+    city: 'Ahmedabad',
+    region: '',
+    country: 'India',
+    zipCode: '380054',
+  },
+  contact: {
+    email: 'aakashpatel25274@gmail.com',
+    phone: '',
+  },
+  foundingDate: '2020',
+  recaptcha_key: '',
+};
