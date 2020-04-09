@@ -4,11 +4,13 @@ import { Container, Button } from 'components/common'
 import dev from 'assets/illustrations/skills.svg'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
+import config from './../../../data/config'
+
 export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+        <img src={dev} alt={config.defaultTitle} />
       </Thumbnail>
       <Details>
         <h1>Hi There!</h1>
@@ -17,7 +19,7 @@ export const Skills = () => (
           industry. Lorem Ipsum has been the industry’s standard dummy.
         </p>
         <Button as={AnchorLink} href="#contact">
-          Hire me
+          Resume
         </Button>
       </Details>
     </SkillsWrapper>
