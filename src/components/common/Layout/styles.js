@@ -623,6 +623,7 @@ export const Global = createGlobalStyle`
         outline: none;
       }
     }
+    
   }
 `;
 
