@@ -9,4 +9,8 @@ export const Wrapper = styled.div`
   a {
     color: #212121;
   }
+
+  img {
+    margin-bottom : 0;
+  }
 `;
