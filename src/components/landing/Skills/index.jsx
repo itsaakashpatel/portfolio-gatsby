@@ -15,12 +15,12 @@ export const Skills = () => (
       <Details>
         <h1>Hi There!</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry’s standard dummy.
+          I'm a <strong>Self-thought Full Stack Developer and Blogger</strong>. I started web development in 2018, I love to work with React Js, Gatsby and Node Js.
+          and now JAM Stack Development has cought my eyes. &#128526;&#128526;
         </p>
-        <Button as={AnchorLink} href="#contact">
+        {/* <Button as={AnchorLink} href="#contact">
           Resume
-        </Button>
+        </Button> */}
       </Details>
     </SkillsWrapper>
   </Wrapper>
