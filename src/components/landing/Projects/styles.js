@@ -1,13 +1,15 @@
+/* eslint-disable */ 
 import styled from 'styled-components';
+import { DialogContent } from '@material-ui/core';
 
 export const Wrapper = styled.div`
   padding: 2rem 0;
 `;
 
-export const Grid = styled.div`
+export const GridWrapper = styled.div`
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 8fr;
   gap: 1.2rem 1.2rem;
 
@@ -21,6 +23,7 @@ export const Grid = styled.div`
 `;
 
 export const Item = styled.div`
+  cursor : pointer;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -41,7 +44,8 @@ export const Content = styled.div`
 
 export const Stats = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
+  align-items : flex-end;
 
   div {
     display: flex;
@@ -59,3 +63,34 @@ export const Stats = styled.div`
     }
   }
 `;
+
+export const DialogBody = styled.div`
+  margin  : 0 auto;
+  width   : 90%;
+
+
+`
+export const DialogContentWrapper = styled(DialogContent)`
+  .content {
+    padding: 10px 0;
+    .type, .description, .technology, .problem, .solution, .github {
+      display : flex;
+
+      div {
+        font-size : 18px;
+        font-weight : bold;
+        min-width : 120px;
+      }
+
+      .button {
+        padding : 0;
+        justify-content: flex-start;
+
+        &:hover {
+          background-color : rgba(0, 0, 0, 0.04)
+        }
+      }
+    }
+  }
+
+`
