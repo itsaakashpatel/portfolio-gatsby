@@ -14,7 +14,7 @@ const ContactForm = ({
 	touched,
 }) => (
 	<Form
-		name="portfolio-dev"
+		name="Aakash Patel"
 		method="post"
 		data-netlify="true"
 		data-netlify-recaptcha="true"
@@ -117,11 +117,11 @@ export default withFormik({
 					)
 					.join('&')
 			}
-			await fetch('/?no-cache=1', {
+			await fetch('https://api.formik.com/submit/aakash-patel/aakash-patel', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 				body: encode({
-					'form-name': 'portfolio-dev',
+					'form-name': 'Aakash Patel',
 					name,
 					email,
 					message,

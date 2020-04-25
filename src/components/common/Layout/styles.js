@@ -1,5 +1,6 @@
 /* eslint-disable */ 
 import { createGlobalStyle, css } from 'styled-components';
+import config from 'src/data/config'
 
 export const Global = createGlobalStyle`
   html {
@@ -624,6 +625,16 @@ export const Global = createGlobalStyle`
       }
     }
     
+    .theme-underline {
+      border-bottom : 4px solid ${config.themeColor};
+      width : max-content;
+      padding-bottom : 5px;
+      color : #222;
+    }
+
+    .toUppercase {
+      text-transform : uppercase;
+    }
   }
 `;
 
