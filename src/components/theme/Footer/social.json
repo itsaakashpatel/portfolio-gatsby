@@ -1,10 +1,4 @@
 [{
-    "id": 0,
-    "name": "Telegram",
-    "link": "",
-    "icon": "/icons/telegram.svg"
-  },
-  {
     "id": 1,
     "name": "Github",
     "link": "https://github.com/itsaakashpatel",
@@ -12,12 +6,6 @@
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "",
-    "icon": "/icons/stackoverflow.svg"
-  },
-  {
-    "id": 3,
     "name": "Twitter",
     "link": "https://twitter.com/itsaakashpatel",
     "icon": "/icons/twitter.svg"
