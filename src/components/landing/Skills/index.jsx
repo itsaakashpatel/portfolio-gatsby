@@ -15,12 +15,12 @@ export const Skills = () => (
       <Details>
         <h1>Hi There!</h1>
         <p>
-          I'm a <strong>Self-taught Full Stack Developer and Blogger</strong>. I started web development in 2018, I love to work with React Js, Gatsby and Node Js.
-          and now JAM Stack Development has cought my eyes. &#128526;&#128526;
+          I'm a <strong>Self-taught Full Stack Developer and Digital Nomad</strong>. I started web development in 2018, I love to work with React Js, Gatsby and Node Js.
+          and currently, JAM Stack Development has caught my eyes. &#128526;&#128526;
         </p>
-        {/* <Button as={AnchorLink} href="#contact">
-          Resume
-        </Button> */}
+        <Button as={AnchorLink} href="https://www.linkedin.com/in/itsaakashpatel/" target="_blank ">
+          Linkedin
+        </Button>
       </Details>
     </SkillsWrapper>
   </Wrapper>
